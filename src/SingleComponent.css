@@ -1,0 +1,46 @@
+.SingleComponent {
+  margin: 10px;
+}
+.Design1 {
+  display: flex;
+  margin: 15px;
+  border: 2px solid white;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: black;
+}
+.Textdata {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: fit-content;
+  justify-content: space-evenly;
+}
+.image {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+}
+.Textdata_name {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Textdata_name > span {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #f9f9f9;
+  letter-spacing: 4px;
+  text-shadow: 2px 2px 8px #ff0000;
+}
+
+.Textdata_name > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 1.9rem;
+  margin-left: 5px;
+  color: #f9f9f9;
+  text-shadow: 0 0 10px cyan, 0 0 5px purple;
+  letter-spacing: 2px;
+}
